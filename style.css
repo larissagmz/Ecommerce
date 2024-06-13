@@ -1,0 +1,95 @@
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto; /* Centralizando o conteúdo*/
+  font-family: "Roboto", sans-serif;
+  }
+  
+.menu {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+.menu-flex {
+  display: flex;
+  align-items: center; 
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start; 
+}
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  font-style: none;
+  gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+.menu-nav ul{
+  display: flex;
+  gap: 20px;
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+  
+.products-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+.products-wrapper ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 10px 10px; 
+  padding: 0px;
+}
+.produto-1{
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+.botao{
+  background-color: #4c6ef5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 10px;
+}
+img {
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+}
+.produto-1 div{
+  text-align: center;
+}
