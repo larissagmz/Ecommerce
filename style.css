@@ -58,7 +58,7 @@
   display: flex;
   flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 11px;
 }
 .products-wrapper ul{
   display: flex;
@@ -66,8 +66,9 @@
   margin-top: 20px;
   gap: 10px 10px; 
   padding: 0px;
+ 
 }
-.produto-1{
+.produtos{
   display: flex;
   flex-direction: column;
   width: 21%;
@@ -76,6 +77,7 @@
   border-radius: 5px;
   box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
+  justify-content: space-around;
 }
 .botao{
   background-color: #4c6ef5;
@@ -83,13 +85,13 @@
   border: none;
   border-radius: 5px;
   height: 30px;
-  font-size: 10px;
+  font-size: 12px;
 }
 img {
   height: 200px;
   object-fit: cover;
   width: 200px;
 }
-.produto-1 div{
+.produtos div{
   text-align: center;
 }
